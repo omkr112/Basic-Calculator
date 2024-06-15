@@ -1,0 +1,46 @@
+
+
+.disp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.disp input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.disp .final {
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn button {
+  padding: 15px;
+  font-size: 18px;
+
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #665b4a;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn button:active {
+  background-color: #ff9808;
+}
